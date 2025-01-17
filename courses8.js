@@ -82,9 +82,9 @@ window.courses = {
     "courseK": {
         "title": "AIG1022 Exploring East Asia",
         "CLOs": {
-            "Cognitive": ["K-C1: Identify key geographic, demographic, cultural, political, economic, and social developments of East Asian countries."],
-            "Psychomotor": ["K-P1: Discuss the unique physical and non-physical characteristics of East Asia using digital tools and media."],
-            "Affective": ["K-A1: Analyze the differences and similarities across East Asia to make insightful observations about the region."]
+            "Cognitive": ["K-C1: Identify the key geographic and demographics features as well as cultural, political, economic and social development of East Asian countries. "],
+            "Psychomotor": ["K-P1: Discuss the unique physical and non-physical characteristics and features of various areas in East Asia through the usage of various digital tools and media."],
+            "Affective": ["K-A1: Produce a creative digital output that demonstrates an appreciation of the geographic, cultural, political, economic, and social aspects of East Asia."]
         }
     },
     "courseL": {
@@ -520,7 +520,7 @@ window.courses = {
         }
     },
     "courseBN": {
-        "title": "AIG2040 Untranslatable Japanese Concepts",
+        "title": "AIG2040 Cross-Cultural Understanding of Japanese Concepts",
         "CLOs": {
             "Cognitive": ["BN-C1: Placeholder for Cognitive CLO"],
             "Psychomotor": ["BN-P1: Placeholder for Psychomotor CLO"],
