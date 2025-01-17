@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Program Learning Outcomes Tracker - Bachelor of East Asian Studies</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .courses, .selected-courses, .clo-cognitive, .clo-psychomotor, .clo-affective, .plo-results {
+            width: 18%;
+            min-height: 300px;
+            border: 2px dashed #ccc;
+            padding: 10px;
+        }
+        .course-item {
+            padding: 8px;
+            margin: 5px;
+            background-color: lightblue;
+            cursor: grab;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="courses.js" defer></script>
+<body>
+    <h1 style="text-align: center; background-color: #4CAF50; color: white; padding: 15px; border-radius: 8px;">Program Learning Outcomes Tracker</h1>
+    <h2 style="text-align: center; font-size: 24px; color: #0073e6; font-weight: bold;">Bachelor of East Asian Studies</h2>
+    <h3 style="text-align: center;">Program Educational Objectives (PEO) & Program Learning Outcomes (PLO)</h3>
+    
+    <h3 style="color: red;">Instructions:</h3>
+    <p>1. Drag and drop courses from the 'Available Courses' list into the 'Selected Courses' area.</p>
+    <p>2. Once selected, the system will automatically update the CLOs and PLOs achieved based on your chosen courses.</p>
+    <p>3. You can remove a course from the 'Selected Courses' area by double-clicking on it.</p>
+    <p>4. The PLO achievement progress is displayed in the bar chart below.</p>
+
+    <div class="container">
+        <!-- Available Courses -->
+        <div class="courses" ondragover="allowDrop(event)" ondrop="dropBack(event)">
+            <h3>Available Courses</h3>
+            <div id="course-list"></div>
+        </div>
+        
+        <!-- Selected Courses -->
+        <div class="selected-courses" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <h3>Selected Courses</h3>
+        </div>
+        
+        <!-- Achieved CLOs - Cognitive -->
+        <div class="clo-cognitive">
+            <h3>Cognitive CLOs</h3>
+            <ul id="cognitive-list"></ul>
+        </div>
+        
+        <!-- Achieved CLOs - Psychomotor -->
+        <div class="clo-psychomotor">
+            <h3>Psychomotor CLOs</h3>
+            <ul id="psychomotor-list"></ul>
+        </div>
+        
+        <!-- Achieved CLOs - Affective -->
+        <div class="clo-affective">
+            <h3>Affective CLOs</h3>
+            <ul id="affective-list"></ul>
+        </div>
+        
+        <!-- Achieved PLOs -->
+        <div class="plo-results">
+            <h3>Achieved PLOs</h3>
+            <ul id="plo-list"></ul>
+        </div>
+    </div>
+
+    <!-- Bar Chart -->
+    <div style="width: 70%; margin: auto; padding-top: 20px;">
+        <h3 style="text-align: center;">PLO Achievement Progress</h3>
+        <canvas id="ploBarChart"></canvas>
+    </div>
+
+    <footer>
+        Developed by Rohayati Paidi
+    </footer>
+
+    <script>
+function allowDrop(event) {
+    event.preventDefault();
+}
+
+function drag(event) {
+    event.dataTransfer.setData("text", event.target.id);
+}
+
+function drop(event) {
+    event.preventDefault();
+    let data = event.dataTransfer.getData("text");
+    let element = document.getElementById(data);
+    if (!document.getElementById("selected-" + data)) {
+        let clone = element.cloneNode(true);
+        clone.id = "selected-" + data;
+        clone.setAttribute("draggable", "true");
+        clone.addEventListener("dragstart", drag);
+        clone.addEventListener("dblclick", removeCourse);
+        event.target.appendChild(clone);
+        displayResults();
+    }
+}
+
+function dropBack(event) {
+    event.preventDefault();
+    let data = event.dataTransfer.getData("text");
+    let element = document.getElementById(data);
+    if (element && element.parentNode.classList.contains("selected-courses")) {
+        element.remove();
+        displayResults();
+    }
+}
+
+function removeCourse(event) {
+    event.target.remove();
+    displayResults();
+}
+
+function displayResults() {
+    let selectedCourses = document.querySelector(".selected-courses").children;
+    let cognitiveList = document.getElementById("cognitive-list");
+    let psychomotorList = document.getElementById("psychomotor-list");
+    let affectiveList = document.getElementById("affective-list");
+    let ploList = document.getElementById("plo-list");
+
+    // Clear previous results
+    cognitiveList.innerHTML = "";
+    psychomotorList.innerHTML = "";
+    affectiveList.innerHTML = "";
+    ploList.innerHTML = "";
+
+    let achievedPLOs = {};
+
+    // Loop through selected courses
+    for (let i = 1; i < selectedCourses.length; i++) {
+        let courseId = selectedCourses[i].id.replace("selected-", "");
+
+        // Check if course exists in window.courses
+        if (window.courses[courseId]) {
+            let course = window.courses[courseId];
+
+            // Generate CLOs
+            Object.keys(course.CLOs).forEach(category => {
+                course.CLOs[category].forEach(clo => {
+                    let cloItem = document.createElement("li");
+                    cloItem.textContent = clo;
+
+                    if (category === "Cognitive") cognitiveList.appendChild(cloItem);
+                    if (category === "Psychomotor") psychomotorList.appendChild(cloItem);
+                    if (category === "Affective") affectiveList.appendChild(cloItem);
+
+                    // Map CLOs to PLOs
+                    let cloKey = clo.split(":")[0];
+                    if (window.ploMapping[cloKey]) {
+                        let ploKey = window.ploMapping[cloKey];
+                        achievedPLOs[ploKey] = (achievedPLOs[ploKey] || 0) + 1;
+                    }
+                });
+            });
+        }
+    }
+
+    // Debug: Log achieved PLOs
+    console.log("Achieved PLOs:", achievedPLOs);
+
+    // Generate Achieved PLOs
+    Object.keys(achievedPLOs).sort().forEach(plo => {
+        let ploItem = document.createElement("li");
+        ploItem.textContent = `${plo}: Achieved ${achievedPLOs[plo]} time(s)`;
+        ploList.appendChild(ploItem);
+    });
+
+    updateBarChart(achievedPLOs);
+}
+
+function updateBarChart(achievedPLOs) {
+    let ctx = document.getElementById("ploBarChart").getContext("2d");
+    let ploLabels = Object.keys(achievedPLOs).sort();
+    let ploData = ploLabels.map(label => achievedPLOs[label]);
+
+    // Debug: Log chart data
+    console.log("PLO Labels:", ploLabels);
+    console.log("PLO Data:", ploData);
+
+    if (window.ploBarChart) {
+        window.ploBarChart.destroy();
+    }
+
+    window.ploBarChart = new Chart(ctx, {
+        type: "bar",
+        data: {
+            labels: ploLabels,
+            datasets: [{
+                label: "PLO Achievement",
+                data: ploData,
+                backgroundColor: "rgba(54, 162, 235, 0.6)",
+                borderColor: "rgba(54, 162, 235, 1)",
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    suggestedMax: 5
+                }
+            }
+        }
+    });
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Checking if courses.js is loaded...");
+    
+    setTimeout(function () {
+        if (typeof window.courses !== "undefined" && Object.keys(window.courses).length > 0) {
+            console.log("Courses loaded successfully:", window.courses);
+            
+            let courseList = document.getElementById("course-list");
+            courseList.innerHTML = ""; // Clear existing course list
+            
+            Object.keys(window.courses).forEach(courseId => {
+                let courseDiv = document.createElement("div");
+                courseDiv.style.backgroundColor = window.courses[courseId]["color"] || "lightblue";
+                courseDiv.className = "course-item";
+                courseDiv.draggable = true;
+                courseDiv.id = courseId;
+                courseDiv.textContent = window.courses[courseId]["title"];
+                courseDiv.addEventListener("dragstart", drag);
+                courseList.appendChild(courseDiv);
+            });
+        } else {
+            console.error("courses.js did not load properly. Please check the file.");
+        }
+    }, 500);
+});
+    </script>
+</body>
+</html>

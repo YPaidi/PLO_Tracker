@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Program Learning Outcomes Tracker - Bachelor of East Asian Studies</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .courses, .selected-courses, .clo-cognitive, .clo-psychomotor, .clo-affective, .plo-results {
+            width: 18%;
+            min-height: 300px;
+            border: 2px dashed #ccc;
+            padding: 10px;
+        }
+        .course-item {
+            padding: 8px;
+            margin: 5px;
+            background-color: lightblue;
+            cursor: grab;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="courses.js" defer></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        console.log("Checking if courses.js is loaded...");
+
+        setTimeout(function () {
+            if (typeof window.courses !== "undefined" && Object.keys(window.courses).length > 0) {
+                console.log("Courses loaded successfully:", window.courses);
+
+                let courseList = document.getElementById("course-list");
+                courseList.innerHTML = "";
+
+                Object.keys(window.courses).forEach(courseId => {
+                    let courseDiv = document.createElement("div");
+                    courseDiv.className = "course-item";
+                    courseDiv.draggable = true;
+                    courseDiv.id = courseId;
+                    courseDiv.textContent = window.courses[courseId]["title"];
+                    courseDiv.addEventListener("dragstart", drag);
+                    courseList.appendChild(courseDiv);
+                });
+            } else {
+                console.error("courses.js did not load properly. Please check the file.");
+            }
+        }, 500);
+    });
+</script>
+<body>
+    <h1 style="text-align: center; background-color: #4CAF50; color: white; padding: 15px; border-radius: 8px;">Program Learning Outcomes Tracker</h1>
+    <h2 style="text-align: center; font-size: 24px; color: #0073e6; font-weight: bold;">Bachelor of East Asian Studies</h2>
+    <h3 style="text-align: center;">Program Educational Objectives (PEO), Program Learning Outcomes (PLO) & Course Learning Outcomes (CLO)</h3>
+    
+    <!-- Table for PEO1 -->
+    <h4 style="color: #0073e6;">PEO01: Demonstrate a holistic understanding of the political, economic, and social dynamics of East Asia, as well as proficiency in one or more East Asian languages.</h4>
+    <table border="1" style="width: 100%; text-align: left; border-collapse: collapse;">
+        <tr>
+            <th style="width: 20%; padding: 8px;">PLO</th>
+            <th style="width: 80%; padding: 8px;">Description</th>
+        </tr>
+        <tr>
+            <td>PLO01 (knowledge and understanding; cognitive)</td>
+            <td>Describe advanced and comprehensive knowledge about East Asian countries, including their languages, histories, culture, society, politics, economies, and cultural systems.</td>
+        </tr>
+        <tr>
+            <td>PLO02 (cognitive skills; cognitive)</td>
+            <td>Demonstrate intellectual independence by analyzing and evaluating developments in East Asian countries, such as political transitions, economic growth, cultural trends, or social transformations, using a multidisciplinary approach.</td>
+        </tr>
+        <tr>
+            <td>PLO07 (numeracy skills; cognitive)</td>
+            <td>Interpret and utilize numerical and visual data, such as trade statistics, economic indicators, or population trends, to explain or predict developments in East Asian countries.</td>
+        </tr>
+        <tr>
+            <td>PLO05 (communication skills; psychomotor)</td>
+            <td>Develop intermediate to advanced proficiency in at least one East Asian language to engage with primary sources, communicate with native speakers, and present insights in a culturally appropriate manner.</td>
+        </tr>
+        <tr>
+            <td>PLO06 (digital skills; psychomotor)</td>
+            <td>Use a broad range of digital tools, media, and technologies to gather, analyze, and present information about East Asian countries.</td>
+        </tr>
+    </table>
+    <br>
+    
+    <!-- Table for PEO2 -->
+    <h4 style="color: #0073e6;">PEO02: Actively contribute to their communities by fostering cross-cultural understanding and collaboration, utilizing their knowledge of East Asian cultures and their international experience to build meaningful networks and partnerships.</h4>
+    <table border="1" style="width: 100%; text-align: left; border-collapse: collapse;">
+        <tr>
+            <th style="width: 20%; padding: 8px;">PLO</th>
+            <th style="width: 80%; padding: 8px;">Description</th>
+        </tr>
+        <tr>
+            <td>PLO03 (practical skills; psychomotor)</td>
+            <td>Demonstrate practical skills by navigating political, economic, and business contexts in East Asia, including diplomacy, trade negotiations, and cross-cultural management, to address real-world challenges and opportunities.</td>
+        </tr>
+        <tr>
+            <td>PLO04 (interpersonal skills; affective)</td>
+            <td>Work collaboratively with individuals and groups in diverse academic and professional communities, locally and internationally, to build mutual understanding and partnerships that address issues or opportunities in East Asian countries.</td>
+        </tr>
+        <tr>
+            <td>PLO09 (personal skills; affective)</td>
+            <td>Show an appreciation of broader sociopolitical, economic, and cultural contexts in East Asian countries, including their global influence and interactions with other regions.</td>
+        </tr>
+        <tr>
+            <td>PLO11 (ethics and professionalism; affective)</td>
+            <td>Identify ethical issues and demonstrate adherence to ethical standards when engaging with topics or practices concerning East Asian countries, including respecting cultural differences, addressing historical sensitivities, and maintaining professionalism in cross-cultural interactions.</td>
+        </tr>
+    </table>
+    <br>
+    
+    <!-- Table for PEO3 -->
+    <h4 style="color: #0073e6;">PEO03: Pursue lifelong learning and personal development, leveraging their mastery of East Asian languages and cultural insights to excel in diverse professional fields and thrive in a globalized workforce.</h4>
+    <table border="1" style="width: 100%; text-align: left; border-collapse: collapse;">
+        <tr>
+            <th style="width: 20%; padding: 8px;">PLO</th>
+            <th style="width: 80%; padding: 8px;">Description</th>
+        </tr>
+        <tr>
+            <td>PLO08 (leadership, autonomy and responsibility; affective)</td>
+            <td>Demonstrate decision-making and professionalism by achieving goals while applying East Asian values like discipline, respect, and teamwork.</td>
+        </tr>
+        <tr>
+            <td>PLO10 (entrepreneurial skills; affective)</td>
+            <td>Engage in self-directed learning to identify and prepare for professional opportunities related to East Asian countries.</td>
+        </tr>
+    </table>
+    <br>
+<h3 style="color: red;">Instructions:</h3>
+    <p>1. Drag and drop courses from the 'Available Courses' list into the 'Selected Courses' area.</p>
+    <p>2. Once selected, the system will automatically update the CLOs and PLOs achieved based on your chosen courses.</p>
+    <p>3. You can remove a course from the 'Selected Courses' area by double-clicking on it.</p>
+    <p>4. The PLO achievement progress is displayed in the bar chart below.</p>
+    <div class="container">
+        <!-- Available Courses -->
+        <div class="courses" ondragover="allowDrop(event)" ondrop="dropBack(event)">
+            <h3>Available Courses</h3>
+            <div id="course-list"></div>
+        </div>
+        
+        <!-- Selected Courses -->
+        <div class="selected-courses" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <h3>Selected Courses</h3>
+        </div>
+        
+        <!-- Achieved CLOs - Cognitive -->
+        <div class="clo-cognitive">
+            <h3>Cognitive CLOs</h3>
+            <ul id="cognitive-list"></ul>
+        </div>
+        
+        <!-- Achieved CLOs - Psychomotor -->
+        <div class="clo-psychomotor">
+            <h3>Psychomotor CLOs</h3>
+            <ul id="psychomotor-list"></ul>
+        </div>
+        
+        <!-- Achieved CLOs - Affective -->
+        <div class="clo-affective">
+            <h3>Affective CLOs</h3>
+            <ul id="affective-list"></ul>
+        </div>
+        
+        <!-- Achieved PLOs -->
+        <div class="plo-results">
+            <h3>Achieved PLOs</h3>
+            <ul id="plo-list"></ul>
+        </div>
+    </div>
+
+    <div style="width: 50%; margin: auto;">
+        <canvas id="ploBarChart"></canvas>
+    </div>
+
+    <footer>
+        Developed by Rohayati Paidi
+    </footer>
+
+    <script>
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drag(event) {
+            event.dataTransfer.setData("text", event.target.id);
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            let data = event.dataTransfer.getData("text");
+            let element = document.getElementById(data);
+            if (!document.getElementById("selected-" + data)) {
+                let clone = element.cloneNode(true);
+                clone.id = "selected-" + data;
+                clone.setAttribute("draggable", "true");
+                clone.addEventListener("dragstart", drag);
+                clone.addEventListener("dblclick", removeCourse);
+                event.target.appendChild(clone);
+                displayResults();
+            }
+        }
+
+        function dropBack(event) {
+            event.preventDefault();
+            let data = event.dataTransfer.getData("text");
+            let element = document.getElementById(data);
+            if (element && element.parentNode.classList.contains("selected-courses")) {
+                element.remove();
+                displayResults();
+            }
+        }
+
+        function removeCourse(event) {
+            event.target.remove();
+            displayResults();
+        }
+
+        let ploBarChart;
+
+        function displayResults() {
+            let selectedCourses = document.querySelector(".selected-courses").children;
+            let cognitiveList = document.getElementById("cognitive-list");
+            let psychomotorList = document.getElementById("psychomotor-list");
+            let affectiveList = document.getElementById("affective-list");
+            let ploList = document.getElementById("plo-list");
+
+            cognitiveList.innerHTML = "";
+            psychomotorList.innerHTML = "";
+            affectiveList.innerHTML = "";
+            ploList.innerHTML = "";
+
+            let achievedPLOs = {
+                "PLO01": 0, "PLO02": 0, "PLO03": 0, "PLO04": 0, "PLO05": 0, 
+                "PLO06": 0, "PLO07": 0, "PLO08": 0, "PLO09": 0, "PLO10": 0, "PLO11": 0
+            };
+
+            for (let i = 1; i < selectedCourses.length; i++) {
+                let courseId = selectedCourses[i].id.replace("selected-", "");
+                if (window.courses[courseId]) {
+                    Object.keys(window.courses[courseId]["CLOs"]).forEach(category => {
+                        window.courses[courseId]["CLOs"][category].forEach(clo => {
+                            let cloItem = document.createElement("li");
+                            cloItem.textContent = clo;
+                            if (category === "Cognitive") cognitiveList.appendChild(cloItem);
+                            if (category === "Psychomotor") psychomotorList.appendChild(cloItem);
+                            if (category === "Affective") affectiveList.appendChild(cloItem);
+
+                            let cloKey = clo.split(":")[0];
+                            if (window.ploMapping[cloKey]) {
+                                let ploKey = window.ploMapping[cloKey];
+                                achievedPLOs[ploKey] += 1;
+                            }
+                        });
+                    });
+                }
+            }
+
+            Object.keys(achievedPLOs).sort().forEach(plo => {
+                let ploItem = document.createElement("li");
+                ploItem.textContent = `${plo} (Achieved ${achievedPLOs[plo]} times)`;
+                ploList.appendChild(ploItem);
+            });
+
+            updateBarChart(achievedPLOs);
+        }
+
+        function updateBarChart(achievedPLOs) {
+            let ctx = document.getElementById("ploBarChart").getContext("2d");
+            let ploLabels = Object.keys(achievedPLOs).sort();
+            let ploData = ploLabels.map(plo => achievedPLOs[plo]);
+
+            if (ploBarChart) {
+                ploBarChart.destroy();
+            }
+
+            ploBarChart = new Chart(ctx, {
+                type: "bar",
+                data: {
+                    labels: ploLabels,
+                    datasets: [{
+                        label: "PLO Achievement",
+                        data: ploData,
+                        backgroundColor: "rgba(54, 162, 235, 0.6)",
+                        borderColor: "rgba(54, 162, 235, 1)",
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            suggestedMax: 5
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

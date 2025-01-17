@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Selection - CLO & PLO Analysis</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .courses, .selected-courses, .clo-cognitive, .clo-psychomotor, .clo-affective, .plo-results {
+            width: 18%;
+            min-height: 300px;
+            border: 2px dashed #ccc;
+            padding: 10px;
+        }
+        .course-item {
+            padding: 8px;
+            margin: 5px;
+            background-color: lightblue;
+            cursor: grab;
+        }
+    </style>
+</head>
+<body>
+    <h2>Drag & Drop Course Selection</h2>
+    <div class="container">
+        <!-- Available Courses -->
+        <div class="courses" ondragover="allowDrop(event)" ondrop="dropBack(event)">
+            <h3>Available Courses (A-Z)</h3>
+            <div id="course-list"></div>
+        </div>
+        
+        <!-- Selected Courses -->
+        <div class="selected-courses" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <h3>Selected Courses</h3>
+        </div>
+        
+        <!-- Achieved CLOs - Cognitive -->
+        <div class="clo-cognitive">
+            <h3>Cognitive CLOs</h3>
+            <ul id="cognitive-list"></ul>
+        </div>
+        
+        <!-- Achieved CLOs - Psychomotor -->
+        <div class="clo-psychomotor">
+            <h3>Psychomotor CLOs</h3>
+            <ul id="psychomotor-list"></ul>
+        </div>
+        
+        <!-- Achieved CLOs - Affective -->
+        <div class="clo-affective">
+            <h3>Affective CLOs</h3>
+            <ul id="affective-list"></ul>
+        </div>
+        
+        <!-- Achieved PLOs -->
+        <div class="plo-results">
+            <h3>Achieved PLOs</h3>
+            <ul id="plo-list"></ul>
+        </div>
+    </div>
+    
+    <script src="courses.js" defer></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            console.log("Courses loaded:", window.courses); // Debugging
+            let courseList = document.getElementById("course-list");
+
+            if (typeof window.courses !== "undefined") {
+                Object.keys(window.courses).forEach(courseId => {
+                    let courseDiv = document.createElement("div");
+                    courseDiv.className = "course-item";
+                    courseDiv.draggable = true;
+                    courseDiv.ondragstart = drag;
+                    courseDiv.id = courseId;
+                    courseDiv.textContent = window.courses[courseId]["title"];
+                    courseList.appendChild(courseDiv);
+                });
+            } else {
+                console.error("courses.js did not load properly.");
+            }
+        });
+
+        // DRAG & DROP FUNCTIONS
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drag(event) {
+            event.dataTransfer.setData("text", event.target.id);
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            let data = event.dataTransfer.getData("text");
+            let element = document.getElementById(data);
+            if (!document.getElementById("selected-" + data)) {
+                let clone = element.cloneNode(true);
+                clone.id = "selected-" + data;
+                clone.setAttribute("draggable", "true");
+                clone.setAttribute("ondragstart", "drag(event)");
+                clone.setAttribute("ondblclick", "removeCourse(event)");
+                event.target.appendChild(clone);
+                displayResults();
+            }
+        }
+
+        function dropBack(event) {
+            event.preventDefault();
+            let data = event.dataTransfer.getData("text");
+            let element = document.getElementById(data);
+            if (element && element.parentNode.classList.contains("selected-courses")) {
+                element.remove();
+                displayResults();
+            }
+        }
+
+        function removeCourse(event) {
+            event.target.remove();
+            displayResults();
+        }
+
+
+    function displayResults() {
+        let selectedCourses = document.querySelector(".selected-courses").children;
+        let cognitiveList = document.getElementById("cognitive-list");
+        let psychomotorList = document.getElementById("psychomotor-list");
+        let affectiveList = document.getElementById("affective-list");
+        let ploList = document.getElementById("plo-list");
+
+        cognitiveList.innerHTML = "";
+        psychomotorList.innerHTML = "";
+        affectiveList.innerHTML = "";
+        ploList.innerHTML = "";
+
+        let achievedPLOs = {};
+
+        for (let i = 1; i < selectedCourses.length; i++) {
+            let courseId = selectedCourses[i].id.replace("selected-", "");
+
+            if (window.courses[courseId]) {
+                Object.keys(window.courses[courseId]["CLOs"]).forEach(category => {
+                    window.courses[courseId]["CLOs"][category].forEach(clo => {
+                        let cloItem = document.createElement("li");
+                        cloItem.textContent = clo;
+
+                        if (category === "Cognitive") cognitiveList.appendChild(cloItem);
+                        if (category === "Psychomotor") psychomotorList.appendChild(cloItem);
+                        if (category === "Affective") affectiveList.appendChild(cloItem);
+
+                        let cloKey = clo.split(":")[0]; // Ambil ID CLO
+                        if (window.ploMapping[cloKey]) {
+                            let ploKey = window.ploMapping[cloKey];
+
+                            if (!achievedPLOs[ploKey]) {
+                                achievedPLOs[ploKey] = 1;
+                            } else {
+                                achievedPLOs[ploKey] += 1;
+                            }
+                        }
+                    });
+                });
+            }
+        }
+
+        Object.keys(achievedPLOs).forEach(plo => {
+            let ploItem = document.createElement("li");
+            ploItem.textContent = `${plo} (Achieved ${achievedPLOs[plo]} times)`;
+            ploList.appendChild(ploItem);
+        });
+    }
+</script>
+
+</body>
+</html>
