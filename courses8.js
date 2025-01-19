@@ -306,25 +306,25 @@ window.courses = {
     "courseAM": {
         "title": "AIG1019 History of China",
         "CLOs": {
-            "Cognitive": ["AM-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AM-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AM-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AM-C1: Summarize the history of China from the ancient to imperial periods, identifying key developments and transitions across eras."],
+            "Psychomotor": ["AM-P1: Analyze themes of unity, fragmentation, prosperity, and upheaval throughout China's ancient and imperial history."],
+            "Affective": ["AM-A1: Discuss China's historical evolution as a foundational background for understanding its contemporary worldview."]
         }
     },
     "courseAN": {
         "title": "AIG1020 History of Japan",
         "CLOs": {
-            "Cognitive": ["AN-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AN-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AN-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AN-C1: Examine the origins of Japan, the foundational political structures, and the processes that led to the establishment of early governance systems and centralized rule."],
+            "Psychomotor": ["AN-P1: Understand the historical context and significance of political transformations during key periods, including the Nara, Heian, Kamakura, and Edo periods, culminating in the Meiji Restoration and modernization efforts."],
+            "Affective": ["AN-A1: Evaluate the evolution of Japan’s political systems and its imperial ambitions, assessing how these developments influenced Japan’s identity and role in global history."]
         }
     },
     "courseAO": {
         "title": "AIG1021 History of Korea",
         "CLOs": {
-            "Cognitive": ["AO-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AO-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AO-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AO-C1: Examine the origins of Korea, its legendary narratives, and the formative processes that led to the establishment of ancient Korean kingdoms."],
+            "Psychomotor": ["AO-P1: Understand the historical context and significance of the unification of Korea, as well as the political, social, and cultural developments during the Silla, Koryo, and Choson dynasties."],
+            "Affective": ["AO-A1: Evaluate the evolution and changes in Korea's formation process during the classic period, and assess how these formation process influenced Korean identity and heritage."]
         }
     },
     "courseAP": {
@@ -1007,15 +1007,15 @@ window.ploMapping = {
     "AL-C1": "PLO01",
     "AL-P1": "PLO06",
     "AL-A1": "PLO08",
-    "AM-C1": "PLO04",
-    "AM-P1": "PLO05",
-    "AM-A1": "PLO06",
-    "AN-C1": "PLO07",
-    "AN-P1": "PLO08",
+    "AM-C1": "PLO01",
+    "AM-P1": "PLO03",
+    "AM-A1": "PLO09",
+    "AN-C1": "PLO01",
+    "AN-P1": "PLO03",
     "AN-A1": "PLO09",
-    "AO-C1": "PLO10",
-    "AO-P1": "PLO11",
-    "AO-A1": "PLO01",
+    "AO-C1": "PLO01",
+    "AO-P1": "PLO03",
+    "AO-A1": "PLO09",
     "AP-C1": "PLO02",
     "AP-P1": "PLO03",
     "AP-A1": "PLO04",
