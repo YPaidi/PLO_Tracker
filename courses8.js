@@ -272,7 +272,7 @@ window.courses = {
         }
     },
     "courseAI": {
-        "title": "AIG3047 Research Seminar on East Asia",
+        "title": "AIG3047 Research Seminar",
         "CLOs": {
             "Cognitive": ["AI-C1: Develop a comprehensive research proposal integrating theoretical and methodological perspectives from Area Studies."],
             "Psychomotor": ["AI-P1: Apply digital tools to structure literature, refine research methodology, and develop a detailed research framework."],
@@ -283,8 +283,8 @@ window.courses = {
         "title": "AIG3048 Research Project",
         "CLOs": {
             "Cognitive": ["AJ-C1: Demonstrate proficiency in research writing adhering to scholarly standards, effectively communicating findings in East Asian Studies."],
-            "Psychomotor": ["AJ-P1: Demonstrate effective interpersonal and communication skills by engaging with respondents, research participants, or interviewees during data collection, ensuring professionalism and ethical conduct."],
-            "Affective": ["AJ-A1: Demonstrate the ability to critically analyze and synthesize research findings, integrating insights from relevant literature."]
+            "Psychomotor": ["AJ-P1: Apply effective interpersonal and communication skills when engaging with respondents, research participants, or interviewees during data collection, maintaining professionalism and ethical conduct."],
+            "Affective": ["AJ-A1: Showcase the ability to critically analyze and synthesize research findings by integrating insights from relevant literature."]
         }
     },
     "courseAK": {
@@ -1005,8 +1005,8 @@ window.ploMapping = {
     "AK-P1": "PLO06",
     "AK-A1": "PLO10",
     "AL-C1": "PLO01",
-    "AL-P1": "PLO02",
-    "AL-A1": "PLO03",
+    "AL-P1": "PLO06",
+    "AL-A1": "PLO08",
     "AM-C1": "PLO04",
     "AM-P1": "PLO05",
     "AM-A1": "PLO06",
