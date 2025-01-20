@@ -402,9 +402,9 @@ window.courses = {
     "courseAY": {
         "title": "AIG2015 Economic Policies of Japan",
         "CLOs": {
-            "Cognitive": ["AY-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AY-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AY-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AY-C1: Analyze how Japanese economic policies align with the state’s interests and priorities."],
+            "Psychomotor": ["AY-P1: Examine the evolution of Japan’s economic policies in response to changes in the international economic landscape."],
+            "Affective": ["AY-A1: Evaluate and justify Japan's economic policies that have significantly contributed to its economic development."]
         }
     },
     "courseAZ": {
