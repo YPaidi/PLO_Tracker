@@ -330,33 +330,33 @@ window.courses = {
     "courseAP": {
         "title": "AIG1028 Special Topic on East Asia",
         "CLOs": {
-            "Cognitive": ["AP-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AP-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AP-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AP-C1: Analyze current developments and emerging issues within East Asia, applying interdisciplinary perspectives to understand the region’s influence on global dynamics."],
+            "Psychomotor": ["AP-P1: Develop the ability to adapt to and engage with a variety of specialized topics and integrating knowledge that relate to East Asia."],
+            "Affective": ["AP-A1: Enhance critical thinking, investigate complex issues within East Asia and to apply the insights in academic contexts."]
         }
     },
     "courseAQ": {
         "title": "AIG1029 Special Topic on China",
         "CLOs": {
-            "Cognitive": ["AQ-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AQ-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AQ-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AQ-C1: Analyze key topics in China’s history, culture, and society, including both achievements and challenges, to understand its identity and global impact."],
+            "Psychomotor": ["AQ-P1: Research critical issues and emerging trends in Chinese studies, presenting balanced perspectives and well-supported conclusions."],
+            "Affective": ["AQ-A1: Engage in discussions and reflections on specialized topics related to China, addressing its complexities, successes, and ongoing challenges in the modern world."]
         }
     },
     "courseAR": {
         "title": "AIG1030 Special Topic on Japan",
         "CLOs": {
-            "Cognitive": ["AR-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AR-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AR-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AR-C1: Analyze niche topics related to Japan’s history, culture, or society, highlighting their unique contributions to understanding Japan’s identity and global standing."],
+            "Psychomotor": ["AR-P1: Conduct in-depth research on underexplored themes in Japanese studies, synthesizing findings into coherent analyses or creative outputs."],
+            "Affective": ["AR-A1: Demonstrate an appreciation for the diversity and complexity of Japan by actively engaging in collaborative discussions and reflective practices on specialized topics."]
         }
     },
     "courseAS": {
         "title": "AIG1031 Special Topic on Korea",
         "CLOs": {
-            "Cognitive": ["AS-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AS-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AS-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AS-C1: Engage with specialized topics in Korean Studies that are not covered in existing courses, demonstrating the ability to synthesize knowledge from various sources and perspectives to form well-reasoned arguments."],
+            "Psychomotor": ["AS-P1: Able to apply interdisciplinary approaches to analyze and interpret contemporary issues, new developments, or emerging trends related to Korea, enhancing their understanding of Korea's evolving global role."],
+            "Affective": ["AS-A1: Analyze the complex issues surrounding Korea’s role in the world, fostering a holistic approach to understanding new developments and challenges."]
         }
     },
     "courseAT": {
@@ -1018,16 +1018,16 @@ window.ploMapping = {
     "AO-A1": "PLO09",
     "AP-C1": "PLO02",
     "AP-P1": "PLO03",
-    "AP-A1": "PLO04",
-    "AQ-C1": "PLO05",
+    "AP-A1": "PLO10",
+    "AQ-C1": "PLO02",
     "AQ-P1": "PLO06",
-    "AQ-A1": "PLO07",
-    "AR-C1": "PLO08",
-    "AR-P1": "PLO09",
-    "AR-A1": "PLO10",
-    "AS-C1": "PLO11",
-    "AS-P1": "PLO01",
-    "AS-A1": "PLO02",
+    "AQ-A1": "PLO09",
+    "AR-C1": "PLO02",
+    "AR-P1": "PLO06",
+    "AR-A1": "PLO09",
+    "AS-C1": "PLO02",
+    "AS-P1": "PLO06",
+    "AS-A1": "PLO09",
     "AT-C1": "PLO03",
     "AT-P1": "PLO04",
     "AT-A1": "PLO05",
