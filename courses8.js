@@ -418,9 +418,9 @@ window.courses = {
     "courseBA": {
         "title": "AIG2018 Local Government of Japan",
         "CLOs": {
-            "Cognitive": ["BA-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BA-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BA-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BA-C1: Summarize the historical development of Japan’s local government system."],
+            "Psychomotor": ["BA-P1: Analyze various challenges and issues faced by Japanese local governments."],
+            "Affective": ["BA-A1: Explain the reforms introduced by the United States-led Allied forces to establish democracy in Japan."]
         }
     },
     "courseBB": {
@@ -1049,9 +1049,9 @@ window.ploMapping = {
     "AZ-C1": "PLO01",
     "AZ-P1": "PLO03",
     "AZ-A1": "PLO09",
-    "BA-C1": "PLO02",
+    "BA-C1": "PLO01",
     "BA-P1": "PLO03",
-    "BA-A1": "PLO04",
+    "BA-A1": "PLO09",
     "BB-C1": "PLO05",
     "BB-P1": "PLO06",
     "BB-A1": "PLO07",
