@@ -482,49 +482,49 @@ window.courses = {
     "courseBI": {
         "title": "AIG2027 Modernization Process of Korea",
         "CLOs": {
-            "Cognitive": ["BI-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BI-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BI-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BI-C1: Explore the key historical events that shaped Korea's modernization, from the 19th century to contemporary Korea."],
+            "Psychomotor": ["BI-P1: Analyze the various external influences on the Korean modernization process and how the Korean people responded."],
+            "Affective": ["BI-A1: Discuss the challenges faced in the process of modernization of Korea."]
         }
     },
     "courseBJ": {
         "title": "AIG2028 Social Transformation in Korea",
         "CLOs": {
-            "Cognitive": ["BJ-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BJ-P1: Placeholder for Psychomotor CLO"],
+            "Cognitive": ["BJ-C1: Explore the theory of social transformation as well as issues and changes that impact the South Korean social structure such as demographic change, gender equality, multiculturalism and income gap."],
+            "Psychomotor": ["BJ-P1: Respond to various contemporary social issues in South Korea such as migration, poverty, education, family problems and so on."],
             "Affective": ["BJ-A1: Placeholder for Affective CLO"]
         }
     },
     "courseBK": {
         "title": "AIG2029 Social Transformation in Japan",
         "CLOs": {
-            "Cognitive": ["BK-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BK-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BK-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BK-C1: Analyze the policies implemented in Japan to drive social transformation and their outcomes."],
+            "Psychomotor": ["BK-P1: Examine the impact of social transformation on Japanese society across different periods."],
+            "Affective": ["BK-A1: Identify and evaluate the key factors that have influenced social transformation in Japan."]
         }
     },
     "courseBL": {
         "title": "AIG2030 Agricultural Economy of Japan",
         "CLOs": {
-            "Cognitive": ["BL-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BL-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BL-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BL-C1: Analyze the historical development and economic characteristics of Japan’s agricultural sector, including its contribution to the national economy."],
+            "Psychomotor": ["BL-P1: Examine technological innovations in Japan’s agriculture and their impact on productivity, sustainability, and economic efficiency."],
+            "Affective": ["BL-A1: Evaluate the economic, political, and social factors that have shaped the advancement and competitiveness of Japan’s agricultural sector in domestic and global markets."]
         }
     },
     "courseBM": {
         "title": "AIG2031 East Asian Contemporary Society",
         "CLOs": {
-            "Cognitive": ["BM-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BM-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BM-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BM-C1: Analyze the changes taking place in the sociocultural aspects of East Asian society."],
+            "Psychomotor": ["BM-P1: Sketch the uniqueness of the socio-cultural features of East Asian society."],
+            "Affective": ["BM-A1: Explain the factors that can lead to social change in a society based on the experiences of the East Asian community."]
         }
     },
     "courseBN": {
         "title": "AIG2040 Cross-Cultural Understanding of Japanese Concepts",
         "CLOs": {
-            "Cognitive": ["BN-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BN-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BN-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BN-C1: Analyze key Japanese cultural concepts within their historical and social contexts, and evaluate their relevance to cross-cultural understanding."],
+            "Psychomotor": ["BN-P1: Apply Japanese cultural values and practices to enhance interpersonal and cross-cultural communication in personal, professional, and global contexts."],
+            "Affective": ["BN-A1: Evaluate the influence of Japanese cultural concepts on contemporary society and discuss their significance in fostering cross-cultural understanding, particularly in the Malaysian context."]
         }
     },
     "courseBO": {
@@ -1073,24 +1073,24 @@ window.ploMapping = {
     "BH-C1": "PLO02",
     "BH-P1": "PLO03",
     "BH-A1": "PLO11",
-    "BI-C1": "PLO04",
-    "BI-P1": "PLO05",
-    "BI-A1": "PLO06",
-    "BJ-C1": "PLO07",
-    "BJ-P1": "PLO08",
-    "BJ-A1": "PLO09",
-    "BK-C1": "PLO10",
-    "BK-P1": "PLO11",
-    "BK-A1": "PLO01",
-    "BL-C1": "PLO02",
-    "BL-P1": "PLO03",
-    "BL-A1": "PLO04",
-    "BM-C1": "PLO05",
-    "BM-P1": "PLO06",
-    "BM-A1": "PLO07",
-    "BN-C1": "PLO08",
-    "BN-P1": "PLO09",
-    "BN-A1": "PLO10",
+    "BI-C1": "PLO01",
+    "BI-P1": "PLO03",
+    "BI-A1": "PLO11",
+    "BJ-C1": "PLO01",
+    "BJ-P1": "PLO03",
+    "BJ-A1": "PLO10",
+    "BK-C1": "PLO02",
+    "BK-P1": "PLO06",
+    "BK-A1": "PLO10",
+    "BL-C1": "PLO07",
+    "BL-P1": "PLO06",
+    "BL-A1": "PLO10",
+    "BM-C1": "PLO02",
+    "BM-P1": "PLO03",
+    "BM-A1": "PLO09",
+    "BN-C1": "PLO01",
+    "BN-P1": "PLO03",
+    "BN-A1": "PLO09",
     "BO-C1": "PLO11",
     "BO-P1": "PLO01",
     "BO-A1": "PLO02",
