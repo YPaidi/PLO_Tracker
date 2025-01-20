@@ -370,10 +370,9 @@ window.courses = {
     "courseAU": {
         "title": "AIG2011 Confucianism in China",
         "CLOs": {
-            "Cognitive": ["AU-C1: Interpret Confucianism as a foundational philosophy shaping Chinese thought and values."],
-            "Psychomotor": ["AU-P1: Elaborate on the evolution and influence of Confucianism across different periods of Chinese history.
-"],
-            "Affective": ["AU-A1: Discuss the challenges Confucianism faces in adapting to the modern era."]
+            "Cognitive": ["AU-C1: Interpret the philosophy of Confucianism as foundation for Chinese thinking."],
+            "Psychomotor": ["AU-P1: Elaborate the development and impact of Confucianism in different periods of Chinese history."],
+            "Affective": ["AU-A1: Discuss the challenges faced by Confucianism in the modern era."]
         }
     },
     "courseAV": {
@@ -387,9 +386,9 @@ window.courses = {
     "courseAW": {
         "title": "AIG2013 Modernization Process of China",
         "CLOs": {
-            "Cognitive": ["AW-C1: Explain the trajectory of China's modernization since the Opium War, highlighting key historical milestones."],
-            "Psychomotor": ["AW-P1: Elaborate on the push and pull factors influencing China's modernization during different periods."],
-            "Affective": ["AW-A1: Discuss the successes and shortcomings of China's modernization process, identifying valuable lessons for future development."]
+            "Cognitive": ["AW-C1: Placeholder for Cognitive CLO"],
+            "Psychomotor": ["AW-P1: Placeholder for Psychomotor CLO"],
+            "Affective": ["AW-A1: Placeholder for Affective CLO"]
         }
     },
     "courseAX": {
@@ -1039,17 +1038,17 @@ window.ploMapping = {
     "AV-P1": "PLO06",
     "AV-A1": "PLO04",
     "AW-C1": "PLO01",
-    "AW-P1": "PLO03",
-    "AW-A1": "PLO08",
-    "AX-C1": "PLO01",
-    "AX-P1": "PLO06",
-    "AX-A1": "PLO09",
-    "AY-C1": "PLO01",
-    "AY-P1": "PLO06",
+    "AW-P1": "PLO02",
+    "AW-A1": "PLO03",
+    "AX-C1": "PLO04",
+    "AX-P1": "PLO05",
+    "AX-A1": "PLO06",
+    "AY-C1": "PLO07",
+    "AY-P1": "PLO08",
     "AY-A1": "PLO09",
-    "AZ-C1": "PLO01",
-    "AZ-P1": "PLO03",
-    "AZ-A1": "PLO09",
+    "AZ-C1": "PLO10",
+    "AZ-P1": "PLO11",
+    "AZ-A1": "PLO01",
     "BA-C1": "PLO02",
     "BA-P1": "PLO03",
     "BA-A1": "PLO04",
