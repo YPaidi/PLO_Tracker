@@ -362,9 +362,9 @@ window.courses = {
     "courseAT": {
         "title": "AIG2010 Current Economic Issues in China",
         "CLOs": {
-            "Cognitive": ["AT-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AT-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AT-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AT-C1: Analyze current economic issues and economic prospects of China."],
+            "Psychomotor": ["AT-P1: Exhibit critical thinking on various aspects of China's current economy."],
+            "Affective": ["AT-A1: Explain the impact of China’s recent economic developments towards its neighbours."]
         }
     },
     "courseAU": {
