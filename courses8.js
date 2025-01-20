@@ -395,25 +395,25 @@ window.courses = {
     "courseAX": {
         "title": "AIG2014 Economic Policies of China",
         "CLOs": {
-            "Cognitive": ["AX-C1: Explain key economic policies in China and their objectives."],
-            "Psychomotor": ["AX-P1: Analyze the impact of market reforms on rural areas in China since 1978."],
-            "Affective": ["AX-A1: Demonstrate an understanding of contemporary economic issues in China and their influence on other countries."]
+            "Cognitive": ["AX-C1: Placeholder for Cognitive CLO"],
+            "Psychomotor": ["AX-P1: Placeholder for Psychomotor CLO"],
+            "Affective": ["AX-A1: Placeholder for Affective CLO"]
         }
     },
     "courseAY": {
         "title": "AIG2015 Economic Policies of Japan",
         "CLOs": {
-            "Cognitive": ["AY-C1: Analyze how Japanese economic policies align with the state’s interests and priorities."],
-            "Psychomotor": ["AY-P1: Examine the evolution of Japan’s economic policies in response to changes in the international economic landscape."],
-            "Affective": ["AY-A1: Evaluate and justify Japan's economic policies that have significantly contributed to its economic development."]
+            "Cognitive": ["AY-C1: Placeholder for Cognitive CLO"],
+            "Psychomotor": ["AY-P1: Placeholder for Psychomotor CLO"],
+            "Affective": ["AY-A1: Placeholder for Affective CLO"]
         }
     },
     "courseAZ": {
         "title": "AIG2017 Administration and Political Systems of Japan",
         "CLOs": {
-            "Cognitive": ["AZ-C1: Outline the development of Japan’s administrative and political systems over time."],
-            "Psychomotor": ["AZ-P1: Analyze the roles of key actors in Japanese administration and politics."],
-            "Affective": ["AZ-A1: Evaluate the effectiveness of Japan’s administration and political systems in contributing to the state’s strength and stability."]
+            "Cognitive": ["AZ-C1: Placeholder for Cognitive CLO"],
+            "Psychomotor": ["AZ-P1: Placeholder for Psychomotor CLO"],
+            "Affective": ["AZ-A1: Placeholder for Affective CLO"]
         }
     },
     "courseBA": {
