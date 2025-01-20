@@ -370,17 +370,17 @@ window.courses = {
     "courseAU": {
         "title": "AIG2011 Confucianism in China",
         "CLOs": {
-            "Cognitive": ["AU-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AU-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AU-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AU-C1: Interpret the philosophy of Confucianism as foundation for Chinese thinking."],
+            "Psychomotor": ["AU-P1: Elaborate the development and impact of Confucianism in different periods of Chinese history."],
+            "Affective": ["AU-A1: Discuss the challenges faced by Confucianism in the modern era."]
         }
     },
     "courseAV": {
         "title": "AIG2012 Social Transformation in China",
         "CLOs": {
-            "Cognitive": ["AV-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AV-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AV-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AV-C1: Explain the different forms of social transformation in China and their historical contexts."],
+            "Psychomotor": ["AV-P1: Analyze various social transformation issues and their impact on Chinese society."],
+            "Affective": ["AV-A1: Discuss current social issues in China and evaluate the government’s policies in addressing these challenges."]
         }
     },
     "courseAW": {
@@ -1031,12 +1031,12 @@ window.ploMapping = {
     "AT-C1": "PLO02",
     "AT-P1": "PLO03",
     "AT-A1": "PLO09",
-    "AU-C1": "PLO06",
-    "AU-P1": "PLO07",
-    "AU-A1": "PLO08",
-    "AV-C1": "PLO09",
-    "AV-P1": "PLO10",
-    "AV-A1": "PLO11",
+    "AU-C1": "PLO01",
+    "AU-P1": "PLO03",
+    "AU-A1": "PLO09",
+    "AV-C1": "PLO01",
+    "AV-P1": "PLO06",
+    "AV-A1": "PLO04",
     "AW-C1": "PLO01",
     "AW-P1": "PLO02",
     "AW-A1": "PLO03",
