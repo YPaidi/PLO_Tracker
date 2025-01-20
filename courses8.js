@@ -410,9 +410,9 @@ window.courses = {
     "courseAZ": {
         "title": "AIG2017 Administration and Political Systems of Japan",
         "CLOs": {
-            "Cognitive": ["AZ-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AZ-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AZ-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AZ-C1: Outline the development of Japan’s administrative and political systems over time."],
+            "Psychomotor": ["AZ-P1: Analyze the roles of key actors in Japanese administration and politics."],
+            "Affective": ["AZ-A1: Evaluate the effectiveness of Japan’s administration and political systems in contributing to the state’s strength and stability."]
         }
     },
     "courseBA": {
