@@ -913,7 +913,7 @@ window.ploMapping = {
     "J-A1": "PLO04",
     "K-C1": "PLO02",
     "K-P1": "PLO06",
-    "K-A1": "PLO4",
+    "K-A1": "PLO04",
     "L-C1": "PLO01",
     "L-P1": "PLO03",
     "L-A1": "PLO09",
