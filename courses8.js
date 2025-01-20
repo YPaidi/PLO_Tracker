@@ -394,9 +394,9 @@ window.courses = {
     "courseAX": {
         "title": "AIG2014 Economic Policies of China",
         "CLOs": {
-            "Cognitive": ["AX-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["AX-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["AX-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["AX-C1: Explain key economic policies in China and their objectives."],
+            "Psychomotor": ["AX-P1: Analyze the impact of market reforms on rural areas in China since 1978."],
+            "Affective": ["AX-A1: Demonstrate an understanding of contemporary economic issues in China and their influence on other countries."]
         }
     },
     "courseAY": {
