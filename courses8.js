@@ -426,57 +426,57 @@ window.courses = {
     "courseBB": {
         "title": "AIG2019 Globalization and Popular Culture of Japan",
         "CLOs": {
-            "Cognitive": ["BB-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BB-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BB-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BB-C1: Outline the origins and evolution of Japanese popular culture."],
+            "Psychomotor": ["BB-P1: Analyze the diffusion and globalization of Japanese popular culture."],
+            "Affective": ["BB-A1: Highlight the unique strengths and global appeal of Japanese popular culture."]
         }
     },
     "courseBC": {
         "title": "AIG2020 Nation Building of Japan",
         "CLOs": {
-            "Cognitive": ["BC-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BC-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BC-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BC-C1: Summarize the historical foundations of Japan’s modernization and their connection to the nation-building process."],
+            "Psychomotor": ["BC-P1: Explain the role of political, social, and cultural factors in shaping Japanese national identity during the nation-building era."],
+            "Affective": ["BC-A1: Analyze how Japan’s modernization efforts contributed to the development of a unified nation-state and its integration into the global order."]
         }
     },
     "courseBD": {
         "title": "AIG2021 Arts and Literature of Japan",
         "CLOs": {
-            "Cognitive": ["BD-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BD-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BD-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BD-C1: Analyze major literary works from different periods in Japanese history, highlighting their themes and cultural significance."],
+            "Psychomotor": ["BD-P1: Demonstrate how Japanese literary works have been translated, adapted, and reinterpreted across different eras."],
+            "Affective": ["BD-A1: Discuss the relevance and meaning of selected Japanese literary texts to contemporary readers."]
         }
     },
     "courseBE": {
         "title": "AIG2023 Korean Civilization",
         "CLOs": {
-            "Cognitive": ["BE-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BE-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BE-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BE-C1: Demonstrate the influence of Chinese civilization on Korean civilization."],
+            "Psychomotor": ["BE-P1: Elaborate the formation process of the Korean nation."],
+            "Affective": ["BE-A1: Evaluate the development of Korean civilization in terms of philosophy, values, belief, economic system, politics, culture, literature and arts."]
         }
     },
     "courseBF": {
         "title": "AIG2024 Korean Economy",
         "CLOs": {
-            "Cognitive": ["BF-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BF-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BF-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BF-C1: Understand the strategies and economic development policies of Korea."],
+            "Psychomotor": ["BF-P1: Analyze the evolution of Korea’s economic structure from post-World War II to the present."],
+            "Affective": ["BF-A1: Evaluate the impact of major economic entities such as Chaebol, the financial sector, and labor movements on Korea's economic growth and current development."]
         }
     },
     "courseBG": {
         "title": "AIG2025 Globalization and Popular Culture of Korea",
         "CLOs": {
-            "Cognitive": ["BG-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BG-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BG-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BG-C1: Analyze the production and diffusion of South Korean popular culture in the context of domestic and international aspects.        "],
+            "Psychomotor": ["BG-P1: Build skills to analyze quantitative and qualitative data."],
+            "Affective": ["BG-A1: Foster the capacity to apply the processes behind the globalization of Korean popular culture to other countries that seek to enhance their soft power through their own pop culture."]
         }
     },
     "courseBH": {
         "title": "AIG2026 North Korea-South Korea Relations",
         "CLOs": {
-            "Cognitive": ["BH-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BH-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BH-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BH-C1: Analyze the historical relationship between North and South Korea, focusing on contemporary political, economic, and security issues."],
+            "Psychomotor": ["BH-P1: Examine the challenges and obstacles to Korean reunification, as well as efforts made by both North and South Korea to address the issue."],
+            "Affective": ["BH-A1: Explain the impact of foreign powers’ interventions on inter-Korean relations and their implications for the region."]
         }
     },
     "courseBI": {
@@ -1052,27 +1052,27 @@ window.ploMapping = {
     "BA-C1": "PLO01",
     "BA-P1": "PLO03",
     "BA-A1": "PLO09",
-    "BB-C1": "PLO05",
+    "BB-C1": "PLO01",
     "BB-P1": "PLO06",
-    "BB-A1": "PLO07",
+    "BB-A1": "PLO09",
     "BC-C1": "PLO08",
     "BC-P1": "PLO09",
     "BC-A1": "PLO10",
-    "BD-C1": "PLO11",
-    "BD-P1": "PLO01",
-    "BD-A1": "PLO02",
-    "BE-C1": "PLO03",
-    "BE-P1": "PLO04",
-    "BE-A1": "PLO05",
-    "BF-C1": "PLO06",
-    "BF-P1": "PLO07",
-    "BF-A1": "PLO08",
-    "BG-C1": "PLO09",
-    "BG-P1": "PLO10",
-    "BG-A1": "PLO11",
-    "BH-C1": "PLO01",
-    "BH-P1": "PLO02",
-    "BH-A1": "PLO03",
+    "BD-C1": "PLO02",
+    "BD-P1": "PLO05",
+    "BD-A1": "PLO04",
+    "BE-C1": "PLO01",
+    "BE-P1": "PLO06",
+    "BE-A1": "PLO09",
+    "BF-C1": "PLO01",
+    "BF-P1": "PLO06",
+    "BF-A1": "PLO09",
+    "BG-C1": "PLO07",
+    "BG-P1": "PLO06",
+    "BG-A1": "PLO04",
+    "BH-C1": "PLO02",
+    "BH-P1": "PLO03",
+    "BH-A1": "PLO11",
     "BI-C1": "PLO04",
     "BI-P1": "PLO05",
     "BI-A1": "PLO06",
