@@ -578,49 +578,49 @@ window.courses = {
     "courseBU": {
         "title": "AIG3010 Economic Development of East Asia",
         "CLOs": {
-            "Cognitive": ["BU-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BU-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BU-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BU-C1: Illustrate the differences in economic growth among East Asian countries."],
+            "Psychomotor": ["BU-P1: Organize factors contributing to East Asian economic development."],
+            "Affective": ["BU-A1: Defend specific economic strategies employed in facing competition among neighbours in the region."]
         }
     },
     "courseBV": {
         "title": "AIG3011 East Asian Security Issues",
         "CLOs": {
-            "Cognitive": ["BV-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BV-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BV-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BV-C1: Show the different patterns of a hyperpower like the United States’ interaction with allies and adversaries related to security issues in East Asia."],
+            "Psychomotor": ["BV-P1: Analyze the existence of issues and conflicts in East Asia that affect regional security."],
+            "Affective": ["BV-A1: Implement tasks related to security issues in East Asia."]
         }
     },
     "courseBW": {
         "title": "AIG3012 United States - East Asia Relations",
         "CLOs": {
-            "Cognitive": ["BW-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BW-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BW-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BW-C1: Analyze the role of the United States as a major power in East Asia and its influence on regional dynamics."],
+            "Psychomotor": ["BW-P1: Examine American international relations in East Asia before and after the Cold War, highlighting key shifts and continuities."],
+            "Affective": ["BW-A1: Understand recent developments in American foreign policy towards East Asian countries and their implications for regional stability and cooperation."]
         }
     },
     "courseBX": {
         "title": "AIG3013 Political Issues in East Asia After 1900",
         "CLOs": {
-            "Cognitive": ["BX-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BX-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BX-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BX-C1: Identify key political issues that have shaped East Asia since 1900, highlighting their historical and regional impacts."],
+            "Psychomotor": ["BX-P1: Analyze potential solutions for resolving political conflicts in East Asia, considering historical contexts and contemporary challenges."],
+            "Affective": ["BX-A1: Evaluate the roles of policy-making organizations, political parties, and ongoing conflicts in East Asia within the context of the research period."]
         }
     },
     "courseBY": {
         "title": "AIG3014 Islam in China",
         "CLOs": {
-            "Cognitive": ["BY-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BY-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BY-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BY-C1: Analyze the historical development, changes and the unique position of Islam in China."],
+            "Psychomotor": ["BY-P1: Exhibit the contributions of Chinese Muslims towards the development of astronomy and in the medical field."],
+            "Affective": ["BY-A1: Correlate the development of religious sects and Sufism, translations activities of religious texts and the Al Quran as well as madrasah based education in China."]
         }
     },
     "courseBZ": {
         "title": "AIG3015 Contemporary Politics of China",
         "CLOs": {
-            "Cognitive": ["BZ-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BZ-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BZ-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BZ-C1: Analyze contemporary political issues in China from various perspectives, including governance, corruption, and ethnic minority challenges."],
+            "Psychomotor": ["BZ-P1: Demonstrate strategies Malaysia can adopt to address similar issues, drawing insights from China's experience."],
+            "Affective": ["BZ-A1: Examine the factors contributing to political issues in China and evaluate their impact on the country's political development."]
         }
     },
     "courseCA": {
@@ -770,9 +770,9 @@ window.courses = {
     "courseCS": {
         "title": "AIG3045 International Development Cooperation and Korea",
         "CLOs": {
-            "Cognitive": ["CS-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["CS-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["CS-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["CS-C1: Examine the evolution of international development cooperation, focusing on key global institutions and their relation to Korea."],
+            "Psychomotor": ["CS-P1: Evaluate South Korea’s development trajectory, including its post-war economic growth, industrialization, and poverty reduction strategies, and assess how these experiences have shaped its approach to international development cooperation."],
+            "Affective": ["CS-A1: Analyse Korea's participation in global development initiatives, such as Official Development Assistance (ODA) programs, partnerships with developing countries, and its engagement in sustainable development goals (SDGs)."]
         }
     },
     "courseCT": {
