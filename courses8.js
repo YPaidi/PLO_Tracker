@@ -530,49 +530,49 @@ window.courses = {
     "courseBO": {
         "title": "AIG2041 Local Government of China",
         "CLOs": {
-            "Cognitive": ["BO-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BO-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BO-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BO-C1: Analyze the structure, functions, and historical evolution of local government systems in China."],
+            "Psychomotor": ["BO-P1: Develop a case study or policy analysis on a specific local government initiative in China, highlighting its challenges and achievements."],
+            "Affective": ["BO-A1: Demonstrate an appreciation for the diversity of local governance across China by participating in discussions or projects exploring regional variations and their implications."]
         }
     },
     "courseBP": {
         "title": "AIG2042 Japan's Global Diplomacy",
         "CLOs": {
-            "Cognitive": ["BP-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BP-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BP-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BP-C1: Analyze Japan's global diplomacy strategies, including its historical evolution and contemporary policies, in addressing international challenges."],
+            "Psychomotor": ["BP-P1: Demonstrate the ability to map and present Japan's key diplomatic relationships, trade agreements, and alliances using visual tools such as charts, graphs, or interactive digital platforms."],
+            "Affective": ["BP-A1: Reflect on the ethical principles underlying Japan’s diplomatic policies and their alignment with global norms, such as sustainability, human rights, and peaceful cooperation."]
         }
     },
     "courseBQ": {
         "title": "AIG2043 Food Security Issues in Japan",
         "CLOs": {
-            "Cognitive": ["BQ-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BQ-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BQ-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BQ-C1: Evaluate Japan’s strategies and policies for addressing food security challenges, such as self-sufficiency rates, import dependency, and sustainable agriculture."],
+            "Psychomotor": ["BQ-P1: Design a case study or action plan addressing a specific food security challenge in Japan, incorporating sustainable and innovative solutions."],
+            "Affective": ["BQ-A1: Demonstrate an appreciation for the importance of food security by engaging in discussions or projects that promote awareness and propose solutions to Japan’s food-related challenges."]
         }
     },
     "courseBR": {
         "title": "AIG2044 Korean Entrepreneurs and Corporations",
         "CLOs": {
-            "Cognitive": ["BR-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BR-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BR-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BR-C1: Analyze and evaluate the key strategies and practices of successful Korean entrepreneurs and corporations, considering their impact on both domestic and global markets."],
+            "Psychomotor": ["BR-P1: Demonstrate effective business planning and presentation skills by compreheding domestic and international business environment and market demand."],
+            "Affective": ["BR-A1: Develop an appreciation for the cultural and ethical considerations in Korean entrepreneurship, fostering a sense of responsibility towards sustainable and socially conscious business practices."]
         }
     },
     "courseBS": {
         "title": "AIG2045 Japanese Data Analytics I: From Data Handling to Basic Analysis",
         "CLOs": {
-            "Cognitive": ["BS-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BS-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BS-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BS-C1: Identify fundamental Japanese data sources and differentiate between clean and unclean data."],
+            "Psychomotor": ["BS-P1: Apply data handling, cleaning, and basic descriptive analysis."],
+            "Affective": ["BS-A1: Acknowledge the importance of reliable, well-documented data."]
         }
     },
     "courseBT": {
         "title": "AIG2046 Japanese Data Analytics II: Visualization and Interpretation",
         "CLOs": {
-            "Cognitive": ["BT-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["BT-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["BT-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["BT-C1: Interpret Japanese datasets by identifying trends, patterns, and insights using appropriate analytical methods and supporting visuals in case studies."],
+            "Psychomotor": ["BT-P1: Create interactive visualizations and basic trend analyses using Japanese datasets, incorporating them into a dashboard project."],
+            "Affective": ["BT-A1: Discuss cultural and ethical considerations in data presentation, including awareness of AI biases, in a project reflection."]
         }
     },
     "courseBU": {
@@ -1091,24 +1091,24 @@ window.ploMapping = {
     "BN-C1": "PLO01",
     "BN-P1": "PLO03",
     "BN-A1": "PLO09",
-    "BO-C1": "PLO11",
-    "BO-P1": "PLO01",
-    "BO-A1": "PLO02",
-    "BP-C1": "PLO03",
-    "BP-P1": "PLO04",
-    "BP-A1": "PLO05",
+    "BO-C1": "PLO02",
+    "BO-P1": "PLO03",
+    "BO-A1": "PLO04",
+    "BP-C1": "PLO02",
+    "BP-P1": "PLO06",
+    "BP-A1": "PLO09",
     "BQ-C1": "PLO06",
     "BQ-P1": "PLO07",
-    "BQ-A1": "PLO08",
-    "BR-C1": "PLO09",
-    "BR-P1": "PLO10",
-    "BR-A1": "PLO11",
-    "BS-C1": "PLO01",
-    "BS-P1": "PLO02",
-    "BS-A1": "PLO03",
-    "BT-C1": "PLO04",
-    "BT-P1": "PLO05",
-    "BT-A1": "PLO06",
+    "BQ-A1": "PLO03",
+    "BR-C1": "PLO07",
+    "BR-P1": "PLO03",
+    "BR-A1": "PLO09",
+    "BS-C1": "PLO07",
+    "BS-P1": "PLO06",
+    "BS-A1": "PLO10",
+    "BT-C1": "PLO07",
+    "BT-P1": "PLO06",
+    "BT-A1": "PLO08",
     "BU-C1": "PLO07",
     "BU-P1": "PLO08",
     "BU-A1": "PLO09",
