@@ -626,81 +626,81 @@ window.courses = {
     "courseCA": {
         "title": "AIG3016 Malaysia-China Relations",
         "CLOs": {
-            "Cognitive": ["CA-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["CA-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["CA-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["CA-C1: Explore the history of Malaysia-China relations."],
+            "Psychomotor": ["CA-P1: Trace the cooperation mechanisms that exist between Malaysia and China."],
+            "Affective": ["CA-A1: Explain the importance of Malaysia-China relations in political, trade and socio-cultural aspects."]
         }
     },
     "courseCB": {
         "title": "AIG3017 China-ASEAN Relations",
         "CLOs": {
-            "Cognitive": ["CB-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["CB-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["CB-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["CB-C1: Understanding the concepts and cooperation mechanisms between ASEAN and China."],
+            "Psychomotor": ["CB-P1: Analyze the evolution and factors influencing the relationships between ASEAN member states and China."],
+            "Affective": ["CB-A1: Summarize the bilateral and multilateral cooperation between China and ASEAN towards the establishment of an East Asian Community."]
         }
     },
     "courseCC": {
         "title": "AIG3018 Foreign Policy of China",
         "CLOs": {
-            "Cognitive": ["CC-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["CC-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["CC-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["CC-C1: Assess the evolution of China's foreign policy since 1949 until present."],
+            "Psychomotor": ["CC-P1: Discuss the roles of domestic actors and institutions in shaping, influencing, and implementing China's foreign policy."],
+            "Affective": ["CC-A1: Analyse China's contribution to global governance including its role in various regional and international organizations."]
         }
     },
     "courseCD": {
         "title": "AIG3019 International Trade and Investments of China",
         "CLOs": {
-            "Cognitive": ["CD-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["CD-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["CD-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["CD-C1: Analyze the policies changes and trends in China’s international trade."],
+            "Psychomotor": ["CD-P1: Advocate how basic theories of trade and investments can be applied to China as a case study."],
+            "Affective": ["CD-A1: Understand the impact of China’s international trade and investments on its neighbors, especially on Malaysia."]
         }
     },
     "courseCE": {
         "title": "AIG3020 Contemporary Issues of Japan",
         "CLOs": {
-            "Cognitive": ["CE-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["CE-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["CE-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["CE-C1: Explore various contemporary issues in Japan in terms of international relations, politics, economic s or social aspects."],
+            "Psychomotor": ["CE-P1: Organize factors behind the occurrence of an issue and its impact on the welfare of the Japanese."],
+            "Affective": ["CE-A1: Defend measures that can be taken by Malaysia in facing specific issues similarly experienced by Japan."]
         }
     },
     "courseCF": {
         "title": "AIG3021 Japanese Management System",
         "CLOs": {
-            "Cognitive": ["CF-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["CF-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["CF-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["CF-C1: Analyze the history of Japanese management system and its influence in current management system."],
+            "Psychomotor": ["CF-P1: Sketch how Japanese management system strengthens Japanese organization."],
+            "Affective": ["CF-A1: Defend ideas in Japanese management which can be applied to organizations in Malaysia."]
         }
     },
     "courseCG": {
         "title": "AIG3022 Organizational Culture of Japan",
         "CLOs": {
-            "Cognitive": ["CG-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["CG-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["CG-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["CG-C1: Analyze the cultural characteristics of business organizations in Japan."],
+            "Psychomotor": ["CG-P1: Organize the duties, responsibilities and roles of each member in a business organization in Japan."],
+            "Affective": ["CG-A1: Defend how Japan can maintain the cultural characteristics of their organizations in the face of challenges in the era of globalization."]
         }
     },
     "courseCH": {
         "title": "AIG3023 Japan-ASEAN Relations",
         "CLOs": {
-            "Cognitive": ["CH-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["CH-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["CH-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["CH-C1: Analyze concepts and cooperation mechanisms which exists between ASEAN member countries and Japan."],
+            "Psychomotor": ["CH-P1: Organize the role of Japanese MNCs in the investment sector of the ASEAN member countries."],
+            "Affective": ["CH-A1: Defend the significance of Japan - ASEAN ties in the political, trade and socio cultural aspects."]
         }
     },
     "courseCI": {
         "title": "AIG3024 Foreign Policy of Japan",
         "CLOs": {
-            "Cognitive": ["CI-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["CI-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["CI-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["CI-C1: Compare the key concepts of Japan’s foreign policy."],
+            "Psychomotor": ["CI-P1: Advocate the domestic actors and institutions that determine Japanese foreign policy."],
+            "Affective": ["CI-A1: Confirm various aspects related to the prioritization in Japan’s foreign policy."]
         }
     },
     "courseCJ": {
         "title": "AIG3025 Industries and Industrial Policy of Japan",
         "CLOs": {
-            "Cognitive": ["CJ-C1: Placeholder for Cognitive CLO"],
-            "Psychomotor": ["CJ-P1: Placeholder for Psychomotor CLO"],
-            "Affective": ["CJ-A1: Placeholder for Affective CLO"]
+            "Cognitive": ["CJ-C1: Write the importance of Japan’s industrial policy to the country’s economic development."],
+            "Psychomotor": ["CJ-P1: Dismantle how Japan’s industrial policy was established."],
+            "Affective": ["CJ-A1: Defend how Japanese industrial model can be applied to regional and world economies."]
         }
     },
     "courseCK": {
