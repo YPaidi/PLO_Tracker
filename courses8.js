@@ -586,25 +586,25 @@ window.courses = {
     "courseBV": {
         "title": "AIG3011 East Asian Security Issues",
         "CLOs": {
-            "Cognitive": ["BV-C1: Show the different patterns of a hyperpower like the United States’ interaction with allies and adversaries related to security issues in East Asia."],
-            "Psychomotor": ["BV-P1: Analyze the existence of issues and conflicts in East Asia that affect regional security."],
-            "Affective": ["BV-A1: Implement tasks related to security issues in East Asia."]
+            "Cognitive": ["BV-C1: Analyze the interaction patterns of major powers like the United States with allies and adversaries on security issues in East Asia."],
+            "Psychomotor": ["BV-P1: Demonstrate the ability to map and present key security issues and conflicts in East Asia using appropriate tools such as timelines, case studies, or visual data."],
+            "Affective": ["BV-A1: Reflect on the impact of security issues in East Asia and their implications for regional stability, fostering an appreciation for collaborative conflict resolution and diplomacy."]
         }
     },
     "courseBW": {
         "title": "AIG3012 United States - East Asia Relations",
         "CLOs": {
-            "Cognitive": ["BW-C1: Analyze the role of the United States as a major power in East Asia and its influence on regional dynamics."],
-            "Psychomotor": ["BW-P1: Examine American international relations in East Asia before and after the Cold War, highlighting key shifts and continuities."],
-            "Affective": ["BW-A1: Understand recent developments in American foreign policy towards East Asian countries and their implications for regional stability and cooperation."]
+            "Cognitive": ["BW-C1: Analyze the role of the United States as a major power in East Asia, highlighting its influence on the region's political, economic, and security dynamics."],
+            "Psychomotor": ["BW-P1: Examine the evolution of American international relations in East Asia before and after the Cold War, identifying key shifts and their implications."],
+            "Affective": ["BW-A1: Evaluate recent developments in American foreign policy towards East Asian countries, focusing on their impact on regional cooperation and stability."]
         }
     },
     "courseBX": {
         "title": "AIG3013 Political Issues in East Asia After 1900",
         "CLOs": {
-            "Cognitive": ["BX-C1: Identify key political issues that have shaped East Asia since 1900, highlighting their historical and regional impacts."],
-            "Psychomotor": ["BX-P1: Analyze potential solutions for resolving political conflicts in East Asia, considering historical contexts and contemporary challenges."],
-            "Affective": ["BX-A1: Evaluate the roles of policy-making organizations, political parties, and ongoing conflicts in East Asia within the context of the research period."]
+            "Cognitive": ["BX-C1: Identify major political issues and events that have shaped East Asia since 1900, analyzing their historical context and regional impact."],
+            "Psychomotor": ["BX-P1: Evaluate potential solutions to political conflicts in East Asia, incorporating historical lessons and contemporary perspectives."],
+            "Affective": ["BX-A1: Analyze the roles of policy-making organizations, political parties, and conflicts in shaping East Asia’s political landscape during the research period."]
         }
     },
     "courseBY": {
@@ -619,40 +619,40 @@ window.courses = {
         "title": "AIG3015 Contemporary Politics of China",
         "CLOs": {
             "Cognitive": ["BZ-C1: Analyze contemporary political issues in China from various perspectives, including governance, corruption, and ethnic minority challenges."],
-            "Psychomotor": ["BZ-P1: Demonstrate strategies Malaysia can adopt to address similar issues, drawing insights from China's experience."],
-            "Affective": ["BZ-A1: Examine the factors contributing to political issues in China and evaluate their impact on the country's political development."]
+            "Psychomotor": ["BZ-P1: Examine the factors contributing to political issues in China and evaluate their impact on the country's political development."],
+            "Affective": ["BZ-A1: Demonstrate strategies Malaysia can adopt to address similar issues, drawing insights from China's experience."]
         }
     },
     "courseCA": {
         "title": "AIG3016 Malaysia-China Relations",
         "CLOs": {
-            "Cognitive": ["CA-C1: Explore the history of Malaysia-China relations."],
-            "Psychomotor": ["CA-P1: Trace the cooperation mechanisms that exist between Malaysia and China."],
-            "Affective": ["CA-A1: Explain the importance of Malaysia-China relations in political, trade and socio-cultural aspects."]
+            "Cognitive": ["CA-C1: Examine the historical development of Malaysia-China relations, highlighting key milestones and their significance."],
+            "Psychomotor": ["CA-P1: Analyze the mechanisms of cooperation between Malaysia and China across various sectors."],
+            "Affective": ["CA-A1: Explain the importance of Malaysia-China relations in political, trade, and socio-cultural contexts, emphasizing their impact on both nations."]
         }
     },
     "courseCB": {
         "title": "AIG3017 China-ASEAN Relations",
         "CLOs": {
-            "Cognitive": ["CB-C1: Understanding the concepts and cooperation mechanisms between ASEAN and China."],
-            "Psychomotor": ["CB-P1: Analyze the evolution and factors influencing the relationships between ASEAN member states and China."],
-            "Affective": ["CB-A1: Summarize the bilateral and multilateral cooperation between China and ASEAN towards the establishment of an East Asian Community."]
+            "Cognitive": ["CB-C1: Understand the key concepts and cooperation mechanisms that define the relationship between ASEAN and China."],
+            "Psychomotor": ["CB-P1: Analyze the evolution of ASEAN-China relations and the factors influencing their interactions across political, economic, and socio-cultural dimensions."],
+            "Affective": ["CB-A1: Summarize the bilateral and multilateral efforts between ASEAN and China in fostering collaboration and advancing the establishment of an East Asian Community."]
         }
     },
     "courseCC": {
         "title": "AIG3018 Foreign Policy of China",
         "CLOs": {
-            "Cognitive": ["CC-C1: Assess the evolution of China's foreign policy since 1949 until present."],
-            "Psychomotor": ["CC-P1: Discuss the roles of domestic actors and institutions in shaping, influencing, and implementing China's foreign policy."],
-            "Affective": ["CC-A1: Analyse China's contribution to global governance including its role in various regional and international organizations."]
+            "Cognitive": ["CC-C1: Evaluate the evolution of China’s foreign policy from 1949 to the present, highlighting key milestones and shifts in its approach to international relations."],
+            "Psychomotor": ["CC-P1: Demonstrate the ability to map and present China’s engagement with domestic actors, institutions, and global organizations in shaping its foreign policy."],
+            "Affective": ["CC-A1: Reflect on China’s contributions to global governance, appreciating its role and impact on regional and international cooperation."]
         }
     },
     "courseCD": {
         "title": "AIG3019 International Trade and Investments of China",
         "CLOs": {
-            "Cognitive": ["CD-C1: Analyze the policies changes and trends in China’s international trade."],
-            "Psychomotor": ["CD-P1: Advocate how basic theories of trade and investments can be applied to China as a case study."],
-            "Affective": ["CD-A1: Understand the impact of China’s international trade and investments on its neighbors, especially on Malaysia."]
+            "Cognitive": ["CD-C1: Analyze the policy changes and emerging trends in China’s international trade, highlighting their implications for global markets."],
+            "Psychomotor": ["CD-P1: Apply basic trade and investment theories to China as a case study, demonstrating their relevance and practical application."],
+            "Affective": ["CD-A1: Evaluate the impact of China’s international trade and investment activities on neighboring countries, with a focus on Malaysia."]
         }
     },
     "courseCE": {
@@ -1110,35 +1110,35 @@ window.ploMapping = {
     "BT-P1": "PLO06",
     "BT-A1": "PLO08",
     "BU-C1": "PLO07",
-    "BU-P1": "PLO08",
-    "BU-A1": "PLO09",
-    "BV-C1": "PLO10",
-    "BV-P1": "PLO11",
-    "BV-A1": "PLO01",
+    "BU-P1": "PLO03",
+    "BU-A1": "PLO04",
+    "BV-C1": "PLO01",
+    "BV-P1": "PLO06",
+    "BV-A1": "PLO09",
     "BW-C1": "PLO02",
-    "BW-P1": "PLO03",
-    "BW-A1": "PLO04",
-    "BX-C1": "PLO05",
-    "BX-P1": "PLO06",
-    "BX-A1": "PLO07",
-    "BY-C1": "PLO08",
-    "BY-P1": "PLO09",
-    "BY-A1": "PLO10",
-    "BZ-C1": "PLO11",
-    "BZ-P1": "PLO01",
-    "BZ-A1": "PLO02",
-    "CA-C1": "PLO03",
-    "CA-P1": "PLO04",
-    "CA-A1": "PLO05",
-    "CB-C1": "PLO06",
-    "CB-P1": "PLO07",
-    "CB-A1": "PLO08",
-    "CC-C1": "PLO09",
-    "CC-P1": "PLO10",
-    "CC-A1": "PLO11",
-    "CD-C1": "PLO01",
-    "CD-P1": "PLO02",
-    "CD-A1": "PLO03",
+    "BW-P1": "PLO06",
+    "BW-A1": "PLO08",
+    "BX-C1": "PLO01",
+    "BX-P1": "PLO03",
+    "BX-A1": "PLO04",
+    "BY-C1": "PLO02",
+    "BY-P1": "PLO06",
+    "BY-A1": "PLO09",
+    "BZ-C1": "PLO02",
+    "BZ-P1": "PLO03",
+    "BZ-A1": "PLO10",
+    "CA-C1": "PLO02",
+    "CA-P1": "PLO03",
+    "CA-A1": "PLO09",
+    "CB-C1": "PLO01",
+    "CB-P1": "PLO03",
+    "CB-A1": "PLO09",
+    "CC-C1": "PLO02",
+    "CC-P1": "PLO06",
+    "CC-A1": "PLO09",
+    "CD-C1": "PLO07",
+    "CD-P1": "PLO03",
+    "CD-A1": "PLO10",
     "CE-C1": "PLO04",
     "CE-P1": "PLO05",
     "CE-A1": "PLO06",
